@@ -24,6 +24,18 @@ form {
     padding : 1rem 1.5rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
+
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn{
+    width: 200px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #bookmark_id {

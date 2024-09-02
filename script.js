@@ -15,7 +15,7 @@ function getBookmarks() {
         const markup = `<div class="bookmark-card">
                     <p>${bookmark.text}<span id="bookmark_id">${bookmark.id}</span></p>
                     <p id="date">Added On: ${bookmark.date}</p>
-                    <a href="${bookmark.url}" class="btn btn-primary" target="_black">View</a>
+                    <a href="${bookmark.url}" class="btn btn-primary" target="blank">View</a>
                     <a href="#" id="delete_bookmark" class="btn btn-danger">Delete</a>
                 </div>`;
 
@@ -54,9 +54,9 @@ function addBookmark() {
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 
     const markup = `<div class="bookmark-card">
-                    <p>${text}<span id="bookmark_id">${id}</span></p>
+                    <p>${text} <span id="bookmark_id"> ${id}</span></p>
                     <p id="date">Added On: ${date}</p>
-                    <a href="${url}" class="btn btn-primary" target="_black">View</a>
+                    <a href="${url}" class="btn btn-primary" target="blank">View</a>
                     <a href="#" id="delete_bookmark" class="btn btn-danger">Delete</a>
                 </div>`;
 
