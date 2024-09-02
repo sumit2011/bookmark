@@ -2,6 +2,10 @@ body {
     background-color: rgb(30, 30, 30);
 }
 
+.logo{
+    width: 40px;
+    height: 40px;
+}
 
 #bookmark_btn {
     background-color: #F48982;
