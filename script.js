@@ -56,8 +56,10 @@ function addBookmark() {
     const markup = `<div class="bookmark-card">
                     <p>${text} <span id="bookmark_id"> ${id}</span></p>
                     <p id="date">Added On: ${date}</p>
+                    <div class="btns">
                     <a href="${url}" class="btn btn-primary" target="blank">View</a>
                     <a href="#" id="delete_bookmark" class="btn btn-danger">Delete</a>
+                     </div>
                 </div>`;
 
     bookmarkList.insertAdjacentHTML('afterbegin', markup);
