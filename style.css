@@ -44,16 +44,13 @@ form {
     margin-top: -5px;
 }
 
-.footer {
-    color: #F48982;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+.source{
+    display: flex;
+    justify-content: right;
+    
 }
 
-.source{
-    color: #F48982;
-    text-decoration: underline;
+.icon{
+    height: 3rem;
+    width: 3rem;
 }
